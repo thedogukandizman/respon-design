@@ -30,3 +30,6 @@ This project provides an overview of the responsive website using HTML, Sass (SC
 ├── .gitignore      
 ├── package.json
 └── README.md
+
+
+GITHUB PAGES LINK: 
