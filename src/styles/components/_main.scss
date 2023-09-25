@@ -27,7 +27,7 @@
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 3;
-      background-image: url("/imgs/img1.jpeg");
+      background-image: url(/imgs/img1.jpeg);
       height: 30rem;
       border-radius: spaces.$card-border-radius;
       position: relative;
@@ -36,7 +36,7 @@
   & h3 {
     font-size: fonts.$h3-small;
   }
-      background-image: url("/imgs/img2.jpeg");
+      background-image: url(/imgs/img2.jpeg);
       height: auto;
       border-radius: spaces.$card-border-radius;
   }
@@ -52,7 +52,7 @@
   & h3 {
     font-size: fonts.$h3-small;
   }
-      background-image: url("/imgs/img3.jpeg");
+      background-image: url(/imgs/img3.jpeg);
       height: auto;
       border-radius: spaces.$card-border-radius;
   }
@@ -60,7 +60,7 @@
   & h3 {
     font-size: fonts.$h3-small;
   }
-      background-image: url("/imgs/img4.jpeg");
+      background-image: url(/imgs/img4.jpeg);
       height: auto;
       border-radius: spaces.$card-border-radius;
   }
@@ -72,7 +72,7 @@ flex-direction: column;
 gap: 1em;
 padding: 1em;
 justify-content: center;
-& article:nth-child(1) { background-image: url("/imgs/img5.jpeg"),
+& article:nth-child(1) { background-image: url(/imgs/img5.jpeg),
     linear-gradient(rgba(74, 46, 26, 0.402), #423f2680);
   background-position: center;
   padding: 4em;
@@ -81,7 +81,7 @@ justify-content: center;
   transition: all 0.5s ease-in-out;
 }
 & article:nth-child(2) {
-  background-image: url("/imgs/img6.jpeg"),
+  background-image: url(/imgs/img6.jpeg),
     linear-gradient(rgba(74, 46, 26, 0.402), #423f2680);
   background-position: center;
   padding: 4em;
@@ -90,7 +90,7 @@ justify-content: center;
   transition: all 0.5s ease-in-out;
 }
 & article:nth-child(3) {
-  background-image: url("/imgs/img7.jpeg"),
+  background-image: url(/imgs/img7.jpeg),
     linear-gradient(rgba(74, 46, 26, 0.402), #423f2680);
   background-position: center;
   padding: 4em;
@@ -138,7 +138,7 @@ justify-content: center;
     }
         width: 100%;
         position: relative;
-        background-image: url("/imgs/img7.jpeg");
+        background-image: url(/imgs/img7.jpeg);
         height: heights.$post-card-height;
         border-radius: spaces.$card-border-radius;
         }
@@ -148,7 +148,7 @@ justify-content: center;
           }
           width: 100%;
           position: relative;
-          background-image: url("/imgs/img8.jpeg");
+          background-image: url(/imgs/img8.jpeg);
           height: heights.$post-card-height;
           border-radius: spaces.$card-border-radius;
     }
@@ -172,7 +172,7 @@ justify-content: center;
       }
           width: 100%;
           position: relative;
-          background-image: url("/imgs/img9.jpeg");
+          background-image: url(/imgs/img9.jpeg);
           height: heights.$post-card-height;
           border-radius: spaces.$card-border-radius;
           }
@@ -182,7 +182,7 @@ justify-content: center;
             }
             width: 100%;
             position: relative;
-            background-image: url("/imgs/img10.jpeg");
+            background-image: url(/imgs/img10.jpeg);
             height: heights.$post-card-height;
             border-radius: spaces.$card-border-radius;
       }
@@ -192,7 +192,7 @@ justify-content: center;
             }
             width: 100%;
             position: relative;
-            background-image: url("/imgs/img11.jpeg");
+            background-image: url(/imgs/img11.jpeg);
             height: heights.$post-card-height;
             border-radius: spaces.$card-border-radius;
       }
