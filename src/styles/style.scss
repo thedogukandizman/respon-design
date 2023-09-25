@@ -1,6 +1,8 @@
-@use "../components/header";
+@use "./components/header";
+@use "./components/main";
 
-@use "../variables/fonts";
+@use "./variables/fonts";
+
 body {
     margin: 4em;
     background-color: #252530;

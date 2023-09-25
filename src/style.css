@@ -32,6 +32,210 @@ header nav i {
   color: #ebebeb;
 }
 
+.masonry {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 2rem;
+}
+.masonry article {
+  color: #ebebeb;
+  border-radius: 2rem;
+  padding: 1em;
+}
+.masonry article:hover {
+  transform: translateY(-2%);
+}
+.masonry article:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background-image: url("/imgs/img1.jpeg");
+  height: 30rem;
+  border-radius: 2rem;
+  position: relative;
+}
+.masonry article:nth-child(1) h3 {
+  font-size: 1em;
+}
+.masonry article:nth-child(2) {
+  background-image: url("/imgs/img2.jpeg");
+  height: auto;
+  border-radius: 2rem;
+}
+.masonry article:nth-child(2) h3 {
+  font-size: 1em;
+}
+.masonry article:nth-child(3) {
+  background-color: rgb(228, 176, 64);
+  height: auto;
+  border-radius: 2rem;
+}
+.masonry article:nth-child(3) h3 {
+  font-size: 1em;
+}
+.masonry article:nth-child(4) {
+  background-image: url("/imgs/img3.jpeg");
+  height: auto;
+  border-radius: 2rem;
+}
+.masonry article:nth-child(4) h3 {
+  font-size: 1em;
+}
+.masonry article:nth-child(5) {
+  background-image: url("/imgs/img4.jpeg");
+  height: auto;
+  border-radius: 2rem;
+}
+.masonry article:nth-child(5) h3 {
+  font-size: 1em;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  justify-content: center;
+}
+.blog article:nth-child(1) {
+  background-image: url("/imgs/img5.jpeg"), linear-gradient(rgba(74, 46, 26, 0.402), rgba(66, 63, 38, 0.5019607843));
+  background-position: center;
+  padding: 4em;
+  border-radius: 2rem;
+  background-size: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.blog article:nth-child(2) {
+  background-image: url("/imgs/img6.jpeg"), linear-gradient(rgba(74, 46, 26, 0.402), rgba(66, 63, 38, 0.5019607843));
+  background-position: center;
+  padding: 4em;
+  border-radius: 2rem;
+  background-size: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.blog article:nth-child(3) {
+  background-image: url("/imgs/img7.jpeg"), linear-gradient(rgba(74, 46, 26, 0.402), rgba(66, 63, 38, 0.5019607843));
+  background-position: center;
+  padding: 4em;
+  border-radius: 2rem;
+  background-size: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.blog article:hover {
+  background-size: 110%;
+}
+
+.blog__content h3 span {
+  font-size: 1.5em;
+  visibility: hidden;
+}
+.blog__content h3:hover span {
+  font-size: 1.5em;
+  visibility: visible;
+}
+
+.post__card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+.post__card article {
+  color: #ebebeb;
+  border-radius: 2rem;
+  padding: 1em;
+}
+.post__card article:hover {
+  transform: translateY(-2%);
+}
+.post__card article:nth-child(1) {
+  width: 100%;
+  position: relative;
+  background-image: url("/imgs/img7.jpeg");
+  height: 25rem;
+  border-radius: 2rem;
+}
+.post__card article:nth-child(1) h3 {
+  font-size: 1em;
+}
+.post__card article:nth-child(2) {
+  width: 100%;
+  position: relative;
+  background-image: url("/imgs/img8.jpeg");
+  height: 25rem;
+  border-radius: 2rem;
+}
+.post__card article:nth-child(2) h3 {
+  font-size: 1em;
+}
+
+.greeting__card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  margin-top: 2rem;
+}
+.greeting__card article {
+  color: #ebebeb;
+  border-radius: 2rem;
+  padding: 1em;
+}
+.greeting__card article:hover {
+  transform: translateY(-2%);
+}
+.greeting__card article:nth-child(1) {
+  width: 100%;
+  position: relative;
+  background-image: url("/imgs/img9.jpeg");
+  height: 25rem;
+  border-radius: 2rem;
+}
+.greeting__card article:nth-child(1) h3 {
+  font-size: 1em;
+}
+.greeting__card article:nth-child(2) {
+  width: 100%;
+  position: relative;
+  background-image: url("/imgs/img10.jpeg");
+  height: 25rem;
+  border-radius: 2rem;
+}
+.greeting__card article:nth-child(2) h3 {
+  font-size: 1em;
+}
+.greeting__card article:nth-child(3) {
+  width: 100%;
+  position: relative;
+  background-image: url("/imgs/img11.jpeg");
+  height: 25rem;
+  border-radius: 2rem;
+}
+.greeting__card article:nth-child(3) h3 {
+  font-size: 1em;
+}
+
+.load__more {
+  align-items: center;
+  text-align: center;
+  line-height: 10rem;
+  margin: 0;
+  padding: 0;
+}
+.load__more button {
+  width: 100%;
+  margin: 0;
+  height: 5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  background-color: #ebebeb;
+  font-weight: bold;
+}
+.load__more button:hover {
+  background-color: #ff9ed8;
+}
+
 body {
   margin: 4em;
   background-color: #252530;
