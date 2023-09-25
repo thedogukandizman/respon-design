@@ -1,0 +1,40 @@
+@use "../variables/colors";
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 2em;
+    & img {
+      height: 2.5em;
+      color: colors.$light-text;
+    }
+    & nav {
+      & a {
+        text-decoration: none;
+        color: colors.$light-text;
+        margin-right: 1em;
+        &:hover::after {
+          content: "";
+          height: 0.2em;
+          width: 0.2em;
+          border-radius: 50%;
+          background-color: colors.$nonactive-link;
+          position: absolute;
+        }
+      }
+      & a:first-child {
+        &::after {
+          content: "";
+          height: 0.2em;
+          width: 0.2em;
+          border-radius: 50%;
+          background-color: colors.$active-link;
+          position: absolute;
+        }
+      }
+      & i {
+        color: colors.$light-text;
+      }
+    }
+  }

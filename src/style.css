@@ -1,0 +1,47 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2em;
+}
+header img {
+  height: 2.5em;
+  color: #ebebeb;
+}
+header nav a {
+  text-decoration: none;
+  color: #ebebeb;
+  margin-right: 1em;
+}
+header nav a:hover::after {
+  content: "";
+  height: 0.2em;
+  width: 0.2em;
+  border-radius: 50%;
+  background-color: #c1bbb3;
+  position: absolute;
+}
+header nav a:first-child::after {
+  content: "";
+  height: 0.2em;
+  width: 0.2em;
+  border-radius: 50%;
+  background-color: #ff970d;
+  position: absolute;
+}
+header nav i {
+  color: #ebebeb;
+}
+
+body {
+  margin: 4em;
+  background-color: #252530;
+}
+
+button {
+  border-radius: 1em;
+  border: none;
+  font-size: 0.7em;
+  padding: 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

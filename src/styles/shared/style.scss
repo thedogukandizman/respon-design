@@ -1,0 +1,14 @@
+@use "../components/header";
+
+@use "../variables/fonts";
+body {
+    margin: 4em;
+    background-color: #252530;
+  }
+  
+  button {
+    border-radius: 1em;
+    border: none;
+    font-size: fonts.$btn-text;
+    padding: 0.5em;
+  }
