@@ -32,4 +32,4 @@ This project provides an overview of the responsive website using HTML, Sass (SC
 └── README.md
 
 
-GITHUB PAGES LINK: 
+GITHUB PAGES LINK:  https://thedogukandizman.github.io/fs16_2-responsive-design/
