@@ -1,19 +1,32 @@
-# Responsive design
+# Responsive Design
+This project provides an overview of the responsive website using HTML, Sass (SCSS), and CSS Grid/Flexbox.
 
-Refer to this [link](https://preview.themeforest.net/item/maido-multipurpose-ghost-blog-theme/full_screen_preview/24837109?_ga=2.259990478.570486835.1654146705-2133876429.1654146705)(see 'Dark version') and create a similar webpage
+## Technologies used
+- Html
+- Sass
+- Css
 
-## Requirements
+## Structures
 
-1. Position the HTML elements using Flexbox and Grid system
-2. Implement basic animations as shown in the webpage (hover effect,
-active link styles, typing effect). You can modify the outlook of the effects
-3. Deploy your web page, using the platform of your choice (For example, Github Pages).
-4. This assignment requires the implementation of SASS.
-5. Rewrite README file with good structure. Add unnecessary files and folders to `.gitignore`
-
-This assignment only requires 1 static page. No JavaScript needed.
-Font family and text content can be modified as your preferences.
-The web page does not need to be fully responsive, but at least you should
-have responsive scaling for Flexbox and Grid system.
-
-
+```
+.
+├── src
+  ├── styles
+    ├── components
+      ├── :footer.scss
+      ├── _header.scss
+      ├── _main.scss
+    ├── shared
+      ├── _buttons.scss
+    ├──variables
+      ├── _colors.scss
+      ├── _heights.scss
+      ├── _fonts.scss
+      ├── _spaces.scss
+├── style.scss
+├── index.html
+├── style.css
+├── style.css.map
+├── .gitignore      
+├── package.json
+└── README.md
