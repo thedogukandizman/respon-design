@@ -27,7 +27,7 @@
       grid-column-end: 3;
       grid-row-start: 1;
       grid-row-end: 3;
-      background-image: url(/imgs/img1.jpeg);
+      background-image: url("../imgs/img1.jpeg");
       height: 30rem;
       border-radius: spaces.$card-border-radius;
       position: relative;
