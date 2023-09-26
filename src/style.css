@@ -76,7 +76,7 @@ header nav i {
   font-size: 1em;
 }
 .masonry article:nth-child(4) {
-  background-image: url("/imgs/img3.jpeg");
+  background-image: url(/imgs/img1.jpeg);
   height: auto;
   border-radius: 2rem;
 }
